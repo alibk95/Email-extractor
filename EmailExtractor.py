@@ -1,7 +1,4 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-# Comentarios en Español
-# Blog: www.pythondiario.com
+
 
 from googlesearch import search
 from socket import timeout
@@ -33,27 +30,6 @@ def menu():
 
 	try:
 		clear()
-		print('		                  .-"""-.                              ')
-		print('		                 / .===. \     ')
-		print('		                 \/ 6 6 \/')
-		print('		                 ( \___/ )')
-		print('		  __________ooo___\_____/______________')
-		print('		 /                                     \ ')
-		print('		 |            EMAIL EXTRACTOR          |')
-		print('		 \__________________________ooo________/')
-		print('')
-		print(' ------------------------------------------------------------------')
-		print("|              ENGLISH             -               ESPAÑOL         | ")
-		print(" ------------------------------------------------------------------")
-		print("1 - Search only in the entered URL - Buscar solo en la URL ingresada")
-		print("2 - Search in a url (Two Levels) - Buscar en una URL(Dos Niveles)")
-		print("3 - Search phrase in google - Buscar frase en Google")
-		print("4 - Same as option 3 but with a list of keywords")
-		print("5 - List emails - Listar correos")
-		print("6 - Save emails in .txt file - Guardar correos en archivo .txt")
-		print("7 - Delete Emails from Data Base")
-		print("8 - Exit - Salir")
-		print("")
 
 		opcion = input("Enter option - Ingrese Opcion: ")
 		if (opcion == "1"):
